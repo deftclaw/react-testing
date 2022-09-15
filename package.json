@@ -31,7 +31,8 @@
   "repository": "gitlab:eeccher/testing",
   "scripts": {
     "build": "remix build",
-    "dev": "remix dev"
+    "dev": "remix dev",
+    "start": "remix-serve ./build"
   },
   "version": "0.0.0"
 }
